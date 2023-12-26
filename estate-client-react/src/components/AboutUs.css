@@ -1,0 +1,41 @@
+.about-us-container {
+    display: flex;
+    align-items: center;
+  margin-left: 170px;
+  margin-right: 170px;
+  margin-top: 50px;
+  }
+  
+  .about-us-content {
+    width: 60%; 
+    margin-right: 100px;
+    font-size: 18px;
+  }
+  
+  .about-us-image {
+    width: 40%; 
+  }
+  
+  .about-us-image img {
+    max-width: 100%; 
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px; 
+    font-size: 40px; 
+    color: #333; 
+    margin-top: 20px;
+    
+}
+  
+  @media screen and (max-width: 768px) {
+    .about-us-container {
+      flex-direction: column; 
+    }
+    .about-us-content,
+    .about-us-image {
+      width: 100%;
+    }
+  }
+  
