@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: estate-api
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:postgresql://localhost:5432/project?createDatabaseIfNotExist=true
+    username: postgres
+    password: postgres
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: ${GITHUB_CLIENT_ID}
+            clientSecret: ${GITHUB_CLIENT_SECRET}
+            scope: read:user, user:email
+          google:
+            clientId: ${GOOGLE_CLIENT_ID}
+            clientSecret: ${GOOGLE_CLIENT_SECRET}
+            scope: profile, email
+
+app:
+  jwt:
+    # Signing key for HS512 algorithm
+    # In http://www.allkeysgenerator.com/ you can generate all kinds of keys
+    secret: v9y$B&E)H@MbQeThWmZq4t7w!z%C*F-JaNdRfUjXn2r5u8x/A?D(G+KbPeShVkYp
+    expiration:
+      minutes: 10
+  oauth2:
+    redirectUri: http://localhost:3000/oauth2/redirect
+  cors:
+    allowed-origins: http://localhost:3000
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+    # org.hibernate.SQL: DEBUG
