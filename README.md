@@ -1,5 +1,3 @@
-<img width="1470" alt="image" src="https://github.com/TimurInamkhojayev/inamkhojayev-daurbekov-java-project/assets/146642629/2d5a74e2-b132-4013-a35b-79c06491523d"># inamkhojayev-daurbekov-java-project
-
 to install necessary libraries (node_modules) for React JS frontend **npm install** or **npm i react-scripts** and then in terminal of client part **npm run start**
 
 To look Admin part: **log: _admin_ pas: _admin_**
