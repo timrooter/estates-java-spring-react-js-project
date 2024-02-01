@@ -1,7 +1,10 @@
+Java Spring(backend) + React JS(Frontend)
+BD, registration, authentication, jwt
+
 to install necessary libraries (node_modules) for React JS frontend **npm install** or **npm i react-scripts** and then in terminal of client part **npm run start**
 
 To look Admin part: **log: _admin_ pas: _admin_**
-To look User part: **log: _user_ pas: _user_** or  register your own account
+To look User part: **log: _user_ pas: _user_** or  sign up your own account
 
 
 Screenshots of the project:
