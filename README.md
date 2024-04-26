@@ -1,5 +1,5 @@
 # Java Spring Boot (Backend) + React JS (Frontend)
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=ESTATES API)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%238B00FF&lines=ESTATES API)](https://git.io/typing-svg)
 
 **Description:**
 EstateAPI is a web application built using **Java 17, PostgreSQL, Spring Security with JWT authentication, and a frontend developed in React JS**. The application serves as a platform for managing real estate properties and user accounts.
